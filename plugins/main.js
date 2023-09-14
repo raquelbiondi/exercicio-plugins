@@ -44,7 +44,8 @@ $(document).ready(function() {
             console.log(camposIncorretos)
             if(camposIncorretos){
                 alert(`Existem ${camposIncorretos} campos incorretos`)
-            }
+            } 
         }
-    })     
+    })
+    $('input').val("");
 })
