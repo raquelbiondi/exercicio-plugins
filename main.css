@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1e2c5f;
+    height: 90px;
+}
+
+header > .container {
+    justify-content: center;
+    padding: 16px;
+    background-color: #5678f560;
+    display: flex;
+    border-bottom: 15px solid #1e2c5f9d;
+    border-radius: 30px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+#contato .container {
+    border-bottom: #1e2c5f ridge 5px;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+h2 {
+    padding: 16px 8px;
+    color: #5678f5;
+    font-style: italic;
+    text-align: center;
+}
+
+.form-campo {
+    margin-bottom: 13px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+    color: #1e2c5fc4;
+}
+
+.form-campo input {
+    width: 100%;
+    display: block;
+    padding: 8px;
+    border-radius: 10px;
+    border: solid #1e2c5f 2px;
+}
+
+form {
+    max-width: 500px;
+}
+
+.cpf-cep {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.cpf-cep input{
+    margin: 0 8px;
+    max-width: 100%;
+}
+
+form button {
+    max-width: 120px;
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #1e2c5fee;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    cursor:pointer;
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-bottom: 13px;
+}
